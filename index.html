@@ -13,10 +13,18 @@
   <form id="bookForm" class="mb-4">
     <h5 id="formTitle">도서 등록</h5>
     <div class="row g-2 mb-2">
-      <div class="col"><input type="text"  class="form-control" id="title"     placeholder="제목"   required></div>
-      <div class="col"><input type="text"  class="form-control" id="author"    placeholder="저자"   required></div>
-      <div class="col"><input type="text"  class="form-control" id="publisher" placeholder="출판사"></div>
-      <div class="col"><input type="date"  class="form-control" id="year"></div>
+      <div class="col">
+        <input type="text"  class="form-control" id="title"     placeholder="제목"   required>
+      </div>
+      <div class="col">
+        <input type="text"  class="form-control" id="author"    placeholder="저자"   required>
+      </div>
+      <div class="col">
+        <input type="text"  class="form-control" id="publisher" placeholder="출판사">
+      </div>
+      <div class="col">
+        <input type="date"  class="form-control" id="year">
+      </div>
     </div>
     <button type="submit" class="btn btn-primary" id="submitBtn">등록</button>
     <button type="button" class="btn btn-secondary" id="cancelBtn" style="display:none;">취소</button>
